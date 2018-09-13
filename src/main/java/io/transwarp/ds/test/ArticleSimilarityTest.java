@@ -31,7 +31,7 @@ public class ArticleSimilarityTest {
         String article=StringUtil.getStringFromTxt("./test_article/test.txt");
         ArticleSimilarity.setIndex_dir("./index");
 
-        ArticleSimilarity.setMaxDocFreq(2100);//最大文档数目，这个值越大，筛选条件越低，入选的文档越多
+        ArticleSimilarity.setMaxDocFreq(212200);//最大文档数目，这个值越大，筛选条件越低，入选的文档越多
         ArticleSimilarity.setMaxQueryTerms(80);//最大的Query数组，这个值越大，筛选条件越低，入选的文档越多
         ArticleSimilarity.setMinWordLen(50);//最小单元长度，这个值越大，筛选条件越高，入选的文档越少
         ArticleSimilarity.setMinDocFreq(0);//最小文档数目，这个值越大，筛选条件越高，入选的文档越少
